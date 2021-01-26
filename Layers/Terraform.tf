@@ -1,5 +1,5 @@
 module "ec2" {
-  source = "../Modules/ec2"
+  source = "../Modules"
   region = "us-west-2"
   availability_zones = "us-west-2a"
   ami = "ami-0a36eb8fadc976275"
